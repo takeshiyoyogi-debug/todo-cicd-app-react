@@ -5,7 +5,7 @@ import App from "../App";
 describe('App', () => {
     test("アプリタイトルが表示されている", () => {
         render(<App />)
-        expect(screen.getByRole("heading", {name: "Todoアプリ!"}))
+        expect(screen.getByRole("heading", {name: "Todoアプリ!!"}))
         .toBeInTheDocument();
     });
 
